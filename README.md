@@ -1,5 +1,7 @@
 # dteam
 
+## Node v14.17.5
+
 ## Project setup
 ```
 npm install
