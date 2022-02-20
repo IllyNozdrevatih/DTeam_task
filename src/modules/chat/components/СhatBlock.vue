@@ -9,7 +9,8 @@
         ref="chatBlock"
     >
       <ChatTextBlock
-        v-for="messageItem of chatInfo.messageList"
+        v-for="(messageItem, index) of chatInfo.messageList"
+        :key="`chat-text-block-${index}`"
         :text="messageItem.text"
         :self-message="messageItem.self"
       />
