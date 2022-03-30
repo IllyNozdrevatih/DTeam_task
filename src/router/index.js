@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from "@/modules/chat/pages/Home";
+import Home from "@/modules/package/pages/Home";
 
 Vue.use(VueRouter)
 
